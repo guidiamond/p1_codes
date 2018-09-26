@@ -1,0 +1,232 @@
+/*Header*/
+
+body {
+    background-image: url(../imgs/teste9.jpg);
+    background-size: cover;
+}
+
+#header {
+    height: 4rem;
+    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    position: relative;
+    /*background-color: red;*/
+}
+
+#nav_header {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#logo_header {
+    padding-top: 0.5rem;
+    width: 8rem;
+    height: 3.4rem;
+    max-height: 3.4rem;
+    max-width: 8rem;
+}
+
+
+.header_list_inicial {
+    padding-top: 0.7rem;
+    padding-left: 3rem;
+    border: 3px solid;
+    font-size: 2.7rem;
+    border: none;
+    color: black;
+}
+
+.header_list {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header_list_sub {
+    padding-top: 1rem;
+    padding-left: 3rem;
+    border: 3px solid;
+    font-size: 2rem;
+    font-family: "Times New Roman";
+    border: none;
+    color: black;
+}
+
+a {
+/*    text-decoration-line: underline;
+    text-decoration-color: none;
+    color: #C00026;*/
+    text-decoration: none;
+}
+
+/*END HEADER*/
+
+/*INFORMACOES DE CONTATO*/
+
+#suporte_titulo {
+    margin-top: 1.5rem;
+    color: black;
+    font-size: 5rem;
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+}
+
+.nome_suporte {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#cor_andre {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    background-color: lightgreen;
+    border-style: solid;
+    border-width: 2px;
+    width: 580px;
+}
+
+#cor_felipe {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    background-color: lightblue;
+    border-style: solid;
+    border-width: 2px;
+    width: 580px;
+}
+#cor_gab {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    background-color: orange;
+    border-style: solid;
+    border-width: 2px;
+    width: 580px;
+}
+
+#cor_gui {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    background-color: red;
+    border-style: solid;
+    border-width: 2px;
+    width: 580px;
+}
+
+#cor_daniel {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    background-color: yellow;
+    border-style: solid;
+    border-width: 2px;
+    width: 580px;
+}
+
+.descricao_suporte {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: "Times New Roman"
+}
+
+
+
+@media (max-width: 360px) {
+
+
+.header_list_inicial {
+    padding-top: 0.7rem;
+    padding-left: 0.1rem;
+    border: 3px solid;
+    font-size: 1rem;
+    border: none;
+    color: black;
+}
+
+.header_list {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.header_list_sub {
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    border: 3px solid;
+    font-size: 0.9rem;
+    font-family: "Times New Roman";
+    border: none;
+    color: black;
+}
+
+
+#header {
+    height: 4rem;
+    width: 10%;
+    max-height: 10%;
+    max-width: 10%;
+    position: relative;    
+}
+
+
+#cor_andre {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    background-color: lightgreen;
+    border-style: solid;
+    border-width: 2px;
+    width: 300px;
+    height:80px;
+}
+
+#cor_felipe {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    background-color: lightblue;
+    border-style: solid;
+    border-width: 2px;
+     width: 300px;
+    height:80px;
+}
+#cor_gab {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    background-color: orange;
+    border-style: solid;
+    border-width: 2px;
+     width: 300px;
+    height:80px;
+}
+
+#cor_gui {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    background-color: red;
+    border-style: solid;
+    border-width: 2px;
+     width: 300px;
+    height:80px;
+}
+
+#cor_daniel {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    background-color: yellow;
+    border-style: solid;
+    border-width: 2px;
+     width: 300px;
+    height:80px;
+}
+
+}
+/*END INFORMACOES DE CONTATO*/

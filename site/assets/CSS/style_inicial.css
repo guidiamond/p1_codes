@@ -1,0 +1,287 @@
+/*Header*/
+body {
+    background-image: url(../imgs/teste9.jpg);
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#header {
+    position: fixed;
+    height: 8%;
+    width: 100%;
+    z-index:2;
+}
+
+.seletor_vermelho {
+    position: relative;
+    height: 9%;
+    width: 100%;
+    background-color: #C00026;
+}
+
+.header_esquerda {
+    display: flex;
+    height: 92%;
+    width: 50%;
+    float: left;
+}
+
+#insper_logo {
+    font-size: 4.7rem;
+    margin-left: 8%;
+}
+
+.seletor_pagina_inicial {
+    background-color: #C00026;
+    height: 5rem;
+    width: 16rem;
+    max-height: 6rem;
+    max-width: 50rem;
+    margin-left: 10%;
+}
+
+.menu_selecionado {
+    font-size: 2.4rem;
+    font-family: 'roboto';
+    text-align: center;
+    margin-top: 0.5rem;
+    color: white;
+}
+
+.seletor_categorias {
+    height: 5rem;
+    width: 16rem;
+}
+
+.menu_categorias {
+    font-size: 2.5rem;
+    padding-left: 3rem;
+    font-family: roboto;
+    margin-top: 5%;
+}
+
+.header_direita {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    height: 92%;
+    width: 50%;
+    float: left;
+}
+
+.subdasub {
+    display: table;
+}
+
+.menu_secundario {
+    font-size: 2.3rem;
+    margin-top: 0.5%;
+    margin-right: 7%;
+    font-family: roboto;
+    color: black;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.menu_secundario:hover {
+    text-decoration: underline;
+    text-decoration-color: #C00026;
+}
+
+.seletor_sobre {
+    height: 5rem;
+    width: 8rem;
+}
+
+.seletor_suporte {
+    height: 5rem;
+    width: 10rem;
+    margin-right: 2.5%;
+}
+
+.sub_categoria {
+    display: block;
+    background-color: #a8adb5;
+    padding-top: 0.5%;
+    border: 1px solid black;
+    font-family: roboto;
+    font-size: 2rem;
+    text-align: center;
+
+    color: black;
+}
+
+.sub_categorias_menu {
+    display: none;
+}
+
+.sub_categoria:hover {
+    background-color: #C00026;
+    opacity: 1;
+
+}
+.subdasub:hover .sub_categorias_menu {
+    opacity: .9;
+    display: block;
+}
+
+.subdasub:hover .menu_categorias {
+    text-decoration: underline;
+    text-decoration-color: #C00026;
+}
+
+.testolas {
+    padding-top: 50px;
+    font-size: 500px;
+    text-align: center;
+}
+
+
+/*END HEADER*/
+
+/*PORTFÓLIO*/
+
+.conteudo {
+    z-index:1;
+    position: fixed;
+    margin-top: 6%;
+    height: 92%;
+    width: 100%;
+    overflow: scroll;
+}
+
+.Portfolio_titulo {
+    margin-top: 1.5rem;
+    text-align: center;
+    position: relative;
+    font-size: 5rem;
+    font-family: 'Exo', sans-serif;
+    color: black;
+}
+
+#caixa_alinhamento {
+    display: grid;
+    position: relative;
+    padding-top: 2%;
+    padding-left: 5%;
+    margin: 0 auto;
+    max-width: 50rem;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+}
+
+.hexagono {
+    height: 75%;
+    width: 75%;
+}
+
+
+@media (max-width: 450px) {
+    #insper_logo {
+        font-size: 2rem;
+        margin-left: 8%;
+    }
+
+    .Portfolio_titulo {
+        margin-top: 3rem;
+        text-align: center;
+        position: relative;
+        font-size: 2.5rem;
+        margin-left: 4%;
+        font-family: 'Exo', sans-serif;
+        color: black;
+    }
+
+    .seletor_pagina_inicial {
+        background-color: #C00026;
+        height: 2.5rem;
+        width: 20rem;
+        max-height: 6rem;
+        max-width: 50rem;
+        margin-left: 10%;
+    }
+
+    .menu_inicial {
+        font-size: 0.8rem;
+        font-family: 'roboto';
+        text-align: center;
+        margin-top: 0.5rem;
+        color: black;
+    }
+
+    .menu_categorias {
+        font-size: 0.8rem;
+        padding-left: 0rem;
+        font-family: roboto;
+        margin-top: 3.2%;
+        margin-left: 5%;
+    }
+
+    .menu_selecionado {
+        font-size: 0.8rem;
+        font-family: 'roboto';
+        text-align: center;
+        margin-top: 0.5rem;
+        color: white;
+    }
+    
+    .seletor_sobre {
+        height: 2.5rem;
+        width: 8rem;
+        max-height: 6rem;
+        max-width: 50rem;
+        margin-left: 35%;
+        margin-right: 4%;
+    }
+
+    .menu_secundario {
+        font-size: 0.8rem;
+        margin-right: 7%;
+        font-family: roboto;
+        color: black;
+        text-align: center;
+        margin-top: 6%;
+    }
+
+    .imagem_sobre {
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .imagem_alinhamento {
+        height: 80%;
+        width: 80%;
+    }
+    .sub_categorias_menu {
+        display: none;
+        margin-top: -19%;
+        margin-left: -3%;
+        height: 3rem;
+        width: 6rem;
+    }
+    .sub_categoria {
+        display: block;
+        background-color: #a8adb5;
+        
+        border: 1px solid black;
+        font-family: roboto;
+        font-size: 1rem;
+        text-align: center;
+        color: black;
+    }
+    #caixa_alinhamento {
+        display: grid;
+        position: relative;
+        padding-top: 5%;
+        padding-left: 12%;
+        margin: 0 auto;
+        max-width: 50rem;
+        grid-template-rows: 50% 50%;
+        grid-template-columns: 50% 50%;
+    }
+}
+/*END PORTFÓLIO*/
