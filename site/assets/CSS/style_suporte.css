@@ -200,6 +200,16 @@ a {
     width: 580px;
 }
 
+#cor_daniel {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    background-color: yellow;
+    border-style: solid;
+    border-width: 2px;
+    width: 580px;
+}
+
 .descricao_suporte {
     text-align: center;
     font-size: 1.2rem;
@@ -300,6 +310,15 @@ a {
         display: block;
         margin: 0 auto;
         background-color: red;
+        border-style: solid;
+        border-width: 2px;
+        width: 90%;
+    }
+    #cor_daniel {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        background-color: yellow;
         border-style: solid;
         border-width: 2px;
         width: 90%;
