@@ -148,9 +148,9 @@ a {
 }
 
 #sobre_titulo {
-    margin-top: 3rem;
+    margin-top: 0.5%;
 	text-align: center;
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: 'Exo', sans-serif;
 	color: black;
 }
@@ -178,7 +178,6 @@ a {
 	border: solid 5px;
 }
 
-@media (max-width: 450px) {
  @media (max-width: 450px) {
 
     .seletor_inicio {
@@ -230,6 +229,16 @@ a {
     .menu_texto_contato {
         font-size: 0.88rem;
         margin-top: 2.4%;
+    }
+
+    #sobre_titulo {
+    margin-top: 8%;
+    font-size: 3rem;
+    }
+
+    .imagem_alinhamento {
+        height: 80%;
+        width: 80%;
     }
 
 }

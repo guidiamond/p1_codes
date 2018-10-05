@@ -111,6 +111,7 @@ a {
 .seletor_contato {
     margin-right: 5%;
     width: 9rem;
+    height: 5rem;
     /*background-color: #C00026;*/
 }
 
@@ -119,6 +120,7 @@ a {
     text-align: center;
     margin-top: 6%;
     font-family: roboto;
+    color: black;
 }
 
 .menu_texto_contato:hover {
@@ -139,47 +141,61 @@ a {
     overflow: scroll;
 }
 
-.container {
-    position: fixed;
-    display: grid;
-    height: 100%;
-    width: 100%;
-    grid-template-rows: 25%;
-    grid-template-columns: 25%;
-}
-
 .Categoria {
     text-align: center;
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: 'Exo', sans-serif;
-    margin-top: 1.5rem;
     color: black;
-
+    margin-bottom: 5%;
 }
 
-#grid_categorias {
-    grid-row-start: 1;
-    grid-row-end: 1;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    padding-top: 4rem;
+.box_categoria {
+    position: relative;
+    height: 60%;
+    width: 100%;
+    margin-bottom: 5%;
 }
+
 .texto_categorias {
-    padding-top: 5rem;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
     color: black;
     text-decoration: underline;
     text-decoration-color: #C00026;
+    padding-top: 4%;
+    margin-right: 2%;
 }
 
-#categorias_menu_direita {
-    font-size: 5rem;
-    color: white;
-    grid-row-start: 1;
-    grid-row-end: 1;
-    grid-column-start: 3;
-    grid-column-end: 4;
+.texto_explicacao {
+    font-size: 2rem;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.categorias_imagem {
+    height: 100%;
+    width: 40%;
+    float: left;
+    border: 0.4rem solid black;
+    border-radius: 50%;
+    margin-right: 2%;
+    margin-left: 1%;
+}
+
+.categorias_imagem_direita {
+    height: 100%;
+    width: 40%;
+    float: right;
+    border: 0.4rem solid black;
+    border-radius: 50%;
+    margin-left: 2%;
+    margin-right: 1%;
+}
+
+.div_gap {
+    height: 10%;
+    width: 100%;
 }
 
 @media (max-width: 450px) {
@@ -234,5 +250,57 @@ a {
         margin-top: 2.4%;
     }
 
+    .Categoria {
+        margin-top: 8%;
+        font-size: 3rem;
+    }
+
+    .box_categoria {
+        position: relative;
+        height: 60%;
+        width: 100%;
+        margin-top: 10rem;
+    }
+
+    .texto_categorias {
+        font-size: 1.5rem;
+        text-align: center;
+        color: black;
+        text-decoration: underline;
+        text-decoration-color: #C00026;
+        margin-right: 0.8%;
+    }
+
+    .texto_explicacao {
+        font-size: 1rem;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .categorias_imagem {
+        position: relative;
+        height: 40%;
+        width: 40%;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .categorias_imagem_direita {
+        position: relative;
+        height: 40%;
+        width: 40%;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .div_gap {
+        height: 10%;
+        width: 100%;
+    }
 }
 /*END CATEGORIAS*/

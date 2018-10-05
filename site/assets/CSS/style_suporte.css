@@ -146,16 +146,16 @@ a {
 }
 
 #suporte_titulo {
-    margin-top: 1.5rem;
+    margin-top: 0.5%;
     color: black;
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: 'Exo', sans-serif;
     text-align: center;
 }
 
 .nome_suporte {
     padding-top: 2rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5%;
     color: black;
     text-align: center;
     font-size: 2rem;
@@ -256,6 +256,14 @@ a {
     .menu_texto_contato {
         font-size: 1.04rem;
         margin-top: 2.4%;
+    }
+    
+    #suporte_titulo {
+    margin-top: 8%;
+    color: black;
+    font-size: 3rem;
+    font-family: 'Exo', sans-serif;
+    text-align: center;
     }
 
     #cor_andre {
