@@ -1,0 +1,258 @@
+/*Header*/
+
+body {
+    background-image: url(../imgs/teste9.jpg);
+    background-size: cover;
+}
+
+#header {
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    z-index:2;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.barra_vermelha {
+    position: relative;
+    height: 8%;
+    width: 100%;
+    background-color: #C00026;
+}
+
+.container_esquerda {
+    display: flex;
+    justify-content: flex-start;
+    height: 92%;
+    width: 50%;
+    float: left;
+}
+
+.container_direita {
+    display: flex;
+    justify-content: flex-end;
+    height: 92%;
+    width: 50%;
+    float: right;
+}
+
+.seletor_inicio {
+    margin-left: 8%;
+    margin-top: 0.4%;
+}
+
+.insper_logo {
+    font-size: 4.6rem;
+    text-decoration: underline;
+    text-decoration-color: #C00026;
+}
+
+.seletor_categorias {
+    margin-left: 20%;
+    width: 15rem;
+    height: 5rem;
+}
+
+.menu_texto_categorias {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-top: 6%;
+    color: black;
+}
+
+.seletor_categorias:hover .menu_texto_categorias{
+    text-decoration: underline;
+    text-decoration-color: #C00026;
+}
+
+.sub_categorias_menu {
+    background-color: #a8adb5;
+    display: none;
+    opacity: 0.9;
+    margin-top: 10%;
+}
+
+.sub_categoria {
+    font-size: 2rem;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.seletor_categorias:hover .sub_categorias_menu {
+    opacity: .9;
+    display: block;
+}
+
+.sub_categoria:hover {
+    background-color: #C00026;
+}
+
+.seletor_sobre {
+    margin-right: 3%;
+    /*background-color: #C00026;*/
+    width: 9rem;
+}
+
+.menu_texto_sobre {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-top: 6%;
+    text-align: center;
+}
+
+.menu_texto_sobre:hover {
+    text-decoration: underline;
+    text-decoration-color: #C00026;
+}
+
+.seletor_contato {
+    margin-right: 5%;
+    width: 9rem;
+    height: 5rem;
+/*  background-color: #C00026;*/
+}
+
+.menu_texto_contato {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-top: 6%;
+    font-family: roboto;
+    color: black;
+}
+
+.menu_texto_contato:hover {
+    text-decoration: underline;
+    text-decoration-color: #C00026;
+}
+
+/*END HEADER*/
+
+/*PORTFÓLIO*/
+
+.conteudo {
+    z-index:1;
+    position: fixed;
+    margin-top: 6%;
+    height: 92%;
+    width: 100%;
+    overflow: scroll;
+}
+
+.Portfolio_titulo {
+    margin-top: 0.5%;
+    text-align: center;
+    position: relative;
+    font-size: 4rem;
+    font-family: 'Exo', sans-serif;
+    color: black;
+}
+
+.alinhamento_central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hexagono {
+    height: 50%;
+    width: 50%;
+    margin-top: 25%;
+    margin-left: 25%;
+}
+
+@media (max-width: 450px) {
+
+    .seletor_inicio {
+        margin-left: 8%;
+        margin-top: 0.16%;
+    }
+
+    .insper_logo {
+        font-size: 1.84rem;
+    }
+
+    .seletor_categorias {
+        margin-left: 10%;
+        width: 10rem;
+        height: 2rem;
+    }
+
+    .menu_texto_categorias {
+        font-size: 0.88rem;
+        margin-top: 2.4%;
+    }
+
+    .sub_categorias_menu {
+        margin-top: 16%;
+    }
+
+    .sub_categoria {
+        font-size: 0.8rem;
+        border: 0.4px solid black;
+    }
+
+    .seletor_sobre {
+        margin-right: 1.2%;
+        width: 3.6rem;
+    }
+
+    .menu_texto_sobre {
+        font-size: 0.88rem;
+        margin-top: 2.4%;
+    }
+
+    .seletor_contato {
+        margin-right: 5%;
+        width: 3.6rem;
+        height: 2rem;
+    }
+
+    .menu_texto_contato {
+        font-size: 0.88rem;
+        margin-top: 2.4%;
+    }
+    
+    .imagem_alinhamento {
+        height: 80%;
+        width: 80%;
+    }
+
+    .sub_categoria {
+        display: block;
+        background-color: #a8adb5;
+        border: 1px solid black;
+        font-family: roboto;
+        font-size: 1rem;
+        text-align: center;
+        color: black;
+    }
+
+    .Portfolio_titulo {
+        margin-top: 8%;
+        text-align: center;
+        position: relative;
+        font-size: 3rem;
+        font-family: 'Exo', sans-serif;
+        color: black;
+    }
+
+    .alinhamento_central {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hexagono {
+        height: 50%;
+        width: 50%;
+        margin-top: 5%;
+        margin-left: 25%;
+    }
+
+}
+/*END PORTFÓLIO*/
