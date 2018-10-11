@@ -178,6 +178,11 @@ a {
 	border: solid 5px;
 }
 
+.div_gap {
+    height: 10rem;
+    width: 100%;
+}
+
  @media (max-width: 450px) {
 
     .seletor_inicio {

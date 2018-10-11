@@ -216,6 +216,11 @@ a {
     font-family: "Times New Roman"
 }
 
+.div_gap {
+    height: 15rem;
+    width: 100%;
+}
+
 @media (max-width: 450px) {
 
     .seletor_inicio {
@@ -323,5 +328,6 @@ a {
         border-width: 2px;
         width: 90%;
     }
+
 }
 /*END INFORMACOES DE CONTATO*/

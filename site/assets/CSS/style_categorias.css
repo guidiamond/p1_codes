@@ -162,7 +162,6 @@ a {
     color: black;
     text-decoration: underline;
     text-decoration-color: #C00026;
-    padding-top: 4%;
     margin-right: 2%;
 }
 
@@ -194,7 +193,7 @@ a {
 }
 
 .div_gap {
-    height: 10%;
+    height: 15rem;
     width: 100%;
 }
 
@@ -298,9 +297,5 @@ a {
         margin-right: auto;
     }
 
-    .div_gap {
-        height: 10%;
-        width: 100%;
-    }
 }
 /*END CATEGORIAS*/
