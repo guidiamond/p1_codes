@@ -1,79 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-	<head>
-		<link rel="stylesheet" type="text/css" href="site/assets/CSS/reset.css">
-		<link rel="stylesheet" type="text/css" href="site/assets/CSS/style_inicial.css">
-		<link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta charset="UTF-8">
-		<title>Portfólio</title>
-	</head>
-
-	<body>
-
-		<!-- HEADER -->
-		<header id="header">
-			<div class="barra_vermelha"></div>
-				<div class="container_esquerda">
-					<div class="seletor_inicio">
-						<a href="index.html">
-							<h1 class="insper_logo">Insper</h1>
-						</a>
-					</div>
-					<div class="seletor_categorias">
-						<p class="menu_texto_categorias">Categorias</p>
-						<div class="sub_categorias_menu">
-							<p class="sub_categoria"><a href="site/Pagina_categoria_matematica.html">Matemática</a></p>
-							<p class="sub_categoria"><a href="site/Pagina_categoria_maonamassa.html">Mão na Massa</a></p>
-							<p class="sub_categoria"><a href="site/Pagina_categoria_programacao.html">Programação</a></p>
-							<p class="sub_categoria"><a href="site/Pagina_categoria_solda.html">Solda</a></p>
-						</div>
-					</div>
-				</div>
-				<div class="container_direita">
-					<div class="seletor_sobre">
-						<a href="site/Pagina_Sobre.html">
-						<p class="menu_texto_sobre">Sobre</p>
-						</a>
-					</div>
-					<div class="seletor_contato">
-						<a href="site/Pagina_Suporte.html">
-						<p class="menu_texto_contato">Contato</p>
-						</a>
-					</div>
-				</div>
-
-		</header>
-		<!-- END HEADER -->
-
-		<!-- PORTFÓLIO-->
-		<div class="conteudo">
-			<h1 class="Portfolio_titulo">
-				Portfólio
-				<br>
-				Engenharia
-			</h1>
-
-			<div id="caixa_alinhamento">
-
-				<a href="site/Pagina_categoria_matematica.html">
-					<img src="site/assets/imgs/matematica_hexagon.png" class="hexagono" alt="matematica_categoria_selecionar">
-				</a>
-
-				<a href="site/Pagina_categoria_solda.html">
-					<img src="site/assets/imgs/solda_hexagon.png" class="hexagono" alt="solda_categoria_selecionar">
-				</a>
-
-				<a href="site/Pagina_categoria_maonamassa.html">
-					<img src="site/assets/imgs/maonamassa_hexagon.png" class="hexagono" alt="maonamassa_categoria_selecionar">
-				</a>
-
-				<a href="site/Pagina_categoria_programacao.html">
-					<img src="site/assets/imgs/programacao_hexagon.png" class="hexagono" alt="programacao_categoria_selecionar">
-				</a>
-				
-			</div>
-			<!-- END PORTFÓLIO-->
-		</div>
-	</body>
+    <head>
+        <title>APS 4: Teste A/B</title>
+        <meta charset="utf-8">
+        <script>
+            if(Math.random() < 0.5) {
+                /*
+                    Substitua "a.html" pela referência
+                    correspondente à Versão A do teste.
+                */
+                window.location.replace('site/index_1.html')
+            }
+            else {
+                /*
+                    Substitua "b.html" pela referência
+                    correspondente à Versão B do teste.
+                */
+                window.location.replace('site/index_2.html')
+            }
+        </script>
+    </head>
+    <body>
+    </body>
 </html>
